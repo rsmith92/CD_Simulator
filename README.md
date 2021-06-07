@@ -8,7 +8,7 @@ Python Simulator<br />
 -I decided to implement my_cd with recursion for my Python file so that my two files wouldnt be too similar!<br />
 -My test cases use the network that was implied in the email:<br />
 ...........------> gh<br />
-root      |<br />
+..........|<br />
 / ----> abc ----> def ----> ghi<br />
 ..........|<br />
 ...........------> klm<br />
