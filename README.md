@@ -7,11 +7,11 @@ Python Simulator<br />
 -I implemented the abstract directories with a Directory class containing name, children, and parent.<br />
 -I decided to implement my_cd with recursion for my Python file so that my two files wouldnt be too similar!<br />
 -My test cases use the network that was implied in the email:<br />
-...........------> gh<br />
-..........|<br />
+___________------> gh<br />
+__________|<br />
 / ----> abc ----> def ----> ghi<br />
-..........|<br />
-...........------> klm<br />
+__________|<br />
+___________------> klm<br />
 -In order to run the file: python3 change_directory.py<br />
 -In order to run the unit tests: python3 test_change_directory.py<br />
 <br />
