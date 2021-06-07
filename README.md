@@ -1,17 +1,17 @@
 # CD_Simulator
 Unix cd simulator written in Python and Java
 
-Python Simulator
+Python Simulator<br />
 -I was able to fully implement the Python abstract change directory function.<br />
 -The file and its unit testing runs from the command line.<br />
 -I implemented the abstract directories with a Directory class containing name, children, and parent.<br />
 -I decided to implement my_cd with recursion for my Python file so that my two files wouldnt be too similar!<br />
 -My test cases use the network that was implied in the email:<br />
-            ------> gh<br />
- root      |<br />
-  / ----> abc ----> def ----> ghi<br />
-           |<br />
-            ------> klm<br />
+.           ------> gh<br />
+.root      |<br />
+. / ----> abc ----> def ----> ghi<br />
+.          |<br />
+.           ------> klm<br />
 -In order to run the file: python3 change_directory.py<br />
 -In order to run the unit tests: python3 test_change_directory.py<br />
 <br />
